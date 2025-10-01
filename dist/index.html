@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr" data-beasties-container>
+<head>
+  <meta charset="utf-8">
+  <title>CV Oluşturucu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.1.1/24/outline/heroicons.min.css" rel="stylesheet">
+  <style>
+    /* Custom scrollbar for a more refined look */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #94a3b8;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #64748b;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "rxjs": "https://aistudiocdn.com/rxjs@^7.8.2?conditions=es2015",
+    "rxjs/operators": "https://aistudiocdn.com/rxjs@^7.8.2/operators?conditions=es2015",
+    "rxjs/ajax": "https://aistudiocdn.com/rxjs@^7.8.2/ajax?conditions=es2015",
+    "rxjs/webSocket": "https://aistudiocdn.com/rxjs@^7.8.2/webSocket?conditions=es2015",
+    "rxjs/testing": "https://aistudiocdn.com/rxjs@^7.8.2/testing?conditions=es2015",
+    "rxjs/fetch": "https://aistudiocdn.com/rxjs@^7.8.2/fetch?conditions=es2015",
+    "@angular/compiler": "https://next.esm.sh/@angular/compiler@^20.3.2?external=rxjs",
+    "@angular/common": "https://next.esm.sh/@angular/common@^20.3.2?external=rxjs",
+    "@angular/common/http": "https://next.esm.sh/@angular/common@^20.3.2/http?external=rxjs",
+    "@google/genai": "https://next.esm.sh/@google/genai@^1.21.0?external=rxjs",
+    "@angular/core": "https://next.esm.sh/@angular/core@^20.3.2?external=rxjs",
+    "@angular/platform-browser": "https://next.esm.sh/@angular/platform-browser@^20.3.2?external=rxjs"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50">
+  <app-root></app-root>
+
+  <!-- Exporting libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!--
+    YERELDE ÇALIŞTIRMA İÇİN NOT:
+    Bu uygulama, modül'leri (import/export) kullandığı için bir web sunucusu üzerinden çalıştırılmalıdır.
+    'index.html' dosyasına çift tıklamak çalışmayacaktır.
+    Proje klasöründe terminali açıp `npx serve` komutunu çalıştırabilirsiniz.
+  -->
+  
+  <!-- Angular uygulamasını başlat -->
+  <script type="module" src="index.tsx"></script>
+<script src="main-EAAXRYNJ.js" type="module"></script></body>
+</html>
